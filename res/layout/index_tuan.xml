@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/z"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/normal_orange" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/home_ico_city"
+            android:drawablePadding="@dimen/little_sapce"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text=" "
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            android:textSize="@dimen/title_text_size" />
+
+        <TextView
+            android:id="@+id/guangjie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="逛街 "
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_text_size" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/market"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="170dp"
+        android:background="#00000000"
+        android:drawableRight="@drawable/home_serve_dot"
+        android:paddingRight="7dp"
+        android:text="商场"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/tianping "
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="230dp"
+        android:background="#00000000"
+        android:drawableRight="@drawable/home_serve_dot"
+        android:paddingRight="10dp"
+        android:text="甜品店"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/chuzuwu "
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="300dp"
+            android:background="#00000000"
+            android:drawableRight="@drawable/home_serve_dot"
+            android:paddingRight="10dp"
+            android:text="日租房"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

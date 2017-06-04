@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+       
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp" />
+
+            <EditText
+                android:id="@+id/login_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/main_home_search_shape"
+                android:drawableLeft="@drawable/zhanghao"
+                android:drawablePadding="@dimen/little_sapce"
+                android:hint="账号"
+                android:paddingBottom="7dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="7dp"
+                android:textColor="@color/darkGray"
+                android:textSize="@dimen/text_size_default" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/main_home_search_shape"
+                android:drawableLeft="@drawable/mima"
+                android:drawablePadding="@dimen/little_sapce"
+                android:hint="密码"
+                android:paddingBottom="7dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="7dp"
+                android:textColor="@color/darkGray"
+                android:textSize="@dimen/text_size_default" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/zhuce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
+                android:text="新用户？Sign up"
+                android:textSize="16dp"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="110dp"
+                android:background="@drawable/login"
+                android:enabled="false"
+                android:text="LOGIN"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
